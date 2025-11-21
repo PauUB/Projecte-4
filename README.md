@@ -66,13 +66,13 @@ Demostrar maduresa professional, capacitat tècnica i actitud resolutiva pròpia
 ---
 
 ### Tasques 📖
-[Tasca 1](/Tasca01)
-[Tasca 1](/Tasca02)
-[Tasca 1](/Tasca03)
-[Tasca 1](/Tasca05)
-[Tasca 1](/Tasca06)
-[Tasca 1](/Tasca07)
-[Tasca 1](/Tasca09)
-[Tasca 1](/Tasca10)
+- [Tasca 1](/Tasca01)
+- [Tasca 2](/Tasca02)
+- [Tasca 3](/Tasca03)
+- [Tasca 5](/Tasca05)
+- [Tasca 6](/Tasca06)
+- [Tasca 7](/Tasca07)
+- [Tasca 9](/Tasca09)
+- [Tasca 10](/Tasca10)
 
 
