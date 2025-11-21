@@ -62,3 +62,17 @@ Inclourà:
 
 ### 🚀 Objectiu final
 Demostrar maduresa professional, capacitat tècnica i actitud resolutiva pròpia d’un perfil júnior preparat per fer el salt al món IT.
+
+---
+
+### Tasques 📖
+[Tasca 1](/Tasca01)
+[Tasca 1](/Tasca02)
+[Tasca 1](/Tasca03)
+[Tasca 1](/Tasca05)
+[Tasca 1](/Tasca06)
+[Tasca 1](/Tasca07)
+[Tasca 1](/Tasca09)
+[Tasca 1](/Tasca10)
+
+
