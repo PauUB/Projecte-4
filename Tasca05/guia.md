@@ -11,7 +11,9 @@ sudo apt install ssh -y
   ![allowusers](img/img06.png)
   Creem un usuari secundari anomenat *usuari2* i afegim un password a *root*
   ![ceració usuari](img/img05.png)
-  
+  ![Password root](img/img17.png)
+  ![login root](img/img16.png)
+
 - Comprovem que es pot connectar remotament a *usuari* però no a *usuari2*
   ![usuari](img/img02.png)
   ![usuari](img/img03.png)
