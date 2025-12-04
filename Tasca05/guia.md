@@ -11,15 +11,16 @@ sudo apt install ssh -y
   ![allowusers](img/img06.png)
   Creem un usuari secundari anomenat *usuari2*
   ![ceració usuari](img/img05.png)
+  
 - Comprovem que es pot connectar remotament a *usuari* però no a *usuari2*
   ![usuari](img/img02.png)
   ![usuari](img/img03.png)
   ![usuari](img/img07.png)
 
-- Configurem amb redirecció dinàmica per redirigir el trànsit.
+- Configurem amb redirecció dinàmica al client per redirigir el trànsit.
   ![tunel](img/img08.png)
 
-- Configurem el proxy i amb WireShark capturem paquets per comprovar la connexió
+- Configurem el proxy al client i amb WireShark capturem paquets per comprovar la connexió Client-Servidor
   ![configuració proxy](img/img09.png)
   ![Captura paquets](img/img10.png)
 
