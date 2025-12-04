@@ -32,3 +32,6 @@ sudo apt install ssh -y
 - Comprovem que ens demana la clau pública per accedir
   ![Comprovació](img/img14.png)
 
+- Instal·lem Servidor OpenSSH a Windows11
+  ![server ssh](img/img15.png)
+
