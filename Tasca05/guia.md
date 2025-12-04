@@ -37,3 +37,6 @@ sudo apt install ssh -y
 - Instal·lem Servidor OpenSSH a Windows11
   ![server ssh](img/img15.png)
 
+- Iniciem el servei i indiquem que inici automaticament
+![inicia servei](img/img18.png)
+![indicacio inici](img/img19.png)
