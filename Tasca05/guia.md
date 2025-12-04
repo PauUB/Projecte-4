@@ -9,7 +9,7 @@ sudo apt install ssh -y
 - Un cop instal·lat a l'arxiu `/etc/ssh/sshd_config` afegim una nova línia per poder indicar quins usuaris poden accedir al ssh.
   Indicarem que només *usuari* pot accedir
   ![allowusers](img/img06.png)
-  Creem un usuari secundari anomenat *usuari2*
+  Creem un usuari secundari anomenat *usuari2* i afegim un password a *root*
   ![ceració usuari](img/img05.png)
   
 - Comprovem que es pot connectar remotament a *usuari* però no a *usuari2*
