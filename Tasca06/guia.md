@@ -4,4 +4,5 @@
   ![Activació](img/img01.png)
 
 - Afegim els usuaris permesos
+  
   ![permesos](img/img02.png)
