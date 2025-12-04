@@ -17,4 +17,17 @@ sudo apt install ssh -y
   ![usuari](img/img07.png)
 
 - Configurem amb redirecció dinàmica per redirigir el trànsit.
+  ![tunel](img/img08.png)
+
+- Configurem el proxy i amb WireShark capturem paquets per comprovar la connexió
+  ![configuració proxy](img/img09.png)
+  ![Captura paquets](img/img10.png)
+
+- Generem una clau pública
+  ![Creació clau](img/img11.png)
+  ![Creació clau](img/img12.png)
+  ![Creació clau](img/img13.png)
+
+- Comprovem que ens demana la clau pública per accedir
+  ![Comprovació](img/img14.png)
 
