@@ -1,5 +1,23 @@
+# T07: Accés remot. Serveis d’assistència remota
+
+Fase 1: Anàlisi Comparativa i Selecció de Solució
+L’objectiu inicial és determinar quina eina d’assistència remota adoptarà EverPia. Per això, cal:
+
+Investigar quatre alternatives populars (TeamViewer, AnyDesk, Google Remote Desktop i una quarta opció escollida).
+Elaborar una taula comparativa basada en criteris clau:
+
+Facilitat d’ús (instal·lació, portabilitat, simplicitat per a l’usuari).
+Compatibilitat amb sistemes operatius (Windows, macOS, Linux).
+Model de preu (cost, llicències, limitacions de la versió gratuïta).
 
 
+Presentar una recomanació oficial amb justificació, equilibrant facilitat, funcionalitat i cost.
+
+Fase 2: Creació de Guies d’Ús
+Un cop seleccionada l’eina, es redactaran dues guies:
+
+Manual per al tècnic (intern): Explicarà el flux de treball, instal·lació, inici de sessions, funcions clau (transferència d’arxius, reinici remot) i bones pràctiques de seguretat.
+Manual per al client (usuari final): Ha de ser molt visual i senzill, indicant com descarregar el mòdul “Quick Support”, comunicar l’ID i acceptar la connexió
 
 # Anàlisi Comparativa i Selecció de la Solució d’Assistència Remota
 
