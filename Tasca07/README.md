@@ -2,7 +2,7 @@
 
 ## Fase 1: Anàlisi Comparativa i Selecció de Solució
 
-- L’objectiu inicial és determinar quina eina d’assistència remota adoptarà EverPia. Per això, cal:
+L’objectiu inicial és determinar quina eina d’assistència remota adoptarà EverPia. Per això, cal:
 
 - Investigar quatre alternatives populars (TeamViewer, AnyDesk, Google Remote Desktop i una quarta opció escollida).
 
