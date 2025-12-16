@@ -8,6 +8,8 @@ Implementar i provar una política de còpies de seguretat en un **servidor Linu
 ## PAS 1. Preparar la màquina virtual
 1. Crear una **màquina virtual Ubuntu Server**.
 2. Afegir un **segon disc de 10 GB** (simula unitat externa).
+
+   ![](img/limg01.png)
 3. Iniciar el sistema i accedir com a usuari amb permisos `sudo`.
 
 ---
@@ -17,22 +19,31 @@ Implementar i provar una política de còpies de seguretat en un **servidor Linu
 ```bash
 lsblk
 ```
+   ![](img/limg02.png)
+
 2. Suposant que és `/dev/sdb`, crear sistema de fitxers **XFS**:
 ```bash
 sudo mkfs.xfs /dev/sdb
 ```
+   ![](img/limg03.png)
+
 3. Crear el punt de muntatge:
 ```bash
 sudo mkdir /media/backup
 ```
+   ![](img/limg04.png)
+
 4. Muntar manualment el disc:
 ```bash
 sudo mount /dev/sdb /media/backup
 ```
+   ![](img/limg05.png)
+
 5. Verificar:
 ```bash
 df -h | grep backup
 ```
+   ![](img/limg06.png)
 
 ---
 
@@ -45,6 +56,8 @@ sudo apt update
 ```bash
 sudo apt install duplicity -y
 ```
+   ![](img/limg07.png)
+
 3. Comprovar instal·lació:
 ```bash
 duplicity --version
@@ -59,6 +72,8 @@ duplicity --version
 sudo adduser user1
 sudo adduser user2
 ```
+   ![](img/limg08.png)
+
 
 ### 4.2 Crear arxius de 10 MB
 1. Com a usuari principal:
@@ -72,6 +87,7 @@ fallocate -l 10M fitxer2.bin
 fallocate -l 10M fitxer3.bin
 fallocate -l 10M fitxer4.bin
 ```
+   ![](img/limg09.png)
 
 ---
 
@@ -85,11 +101,11 @@ export PASSPHRASE=contrasenyaSegura
 ```bash
 duplicity /home file:///media/backup/home_backup
 ```
+ <img src="img/limg10.png" width="1000" height="1000">
 3. Verificar contingut:
 ```bash
 ls /media/backup/home_backup
 ```
-
 ---
 
 ## PAS 6. Restauració de dades
@@ -98,10 +114,14 @@ ls /media/backup/home_backup
 ```bash
 rm ~/fitxer*.bin
 ```
+   ![](img/limg11.png)
+
 2. Restaurar des de la còpia:
 ```bash
 duplicity restore file:///media/backup/home_backup /home
 ```
+   ![](img/limg12.png)
+
 3. Comprovar que els fitxers s’han recuperat correctament.
 
 ---
@@ -122,6 +142,7 @@ duplicity /home file:///media/backup/home_backup
 ```bash
 sudo umount /media/backup
 ```
+   ![](img/limg13.png)
 
 ---
 
@@ -131,6 +152,7 @@ sudo umount /media/backup
 ```bash
 sudo nano /usr/local/bin/fullbackup.sh
 ```
+   ![](img/limg15.png)
 
 2. Contingut de l’script:
 ```bash
@@ -140,11 +162,13 @@ mount /dev/sdb /media/backup
 duplicity full /home file:///media/backup/home_backup
 umount /media/backup
 ```
+   ![](img/limg14.png)
 
 3. Donar permisos:
 ```bash
 sudo chmod +x /usr/local/bin/fullbackup.sh
 ```
+   ![](img/limg16.png)
 
 ---
 
@@ -154,10 +178,13 @@ sudo chmod +x /usr/local/bin/fullbackup.sh
 ```bash
 sudo crontab -e
 ```
+   ![](img/limg20.png)
+
 2. Afegir:
 ```cron
 0 23 * * 0 /usr/local/bin/fullbackup.sh
 ```
+   ![](img/limg17.png)
 
 ---
 
@@ -176,6 +203,7 @@ mount /dev/sdb /media/backup
 duplicity /home file:///media/backup/home_backup
 umount /media/backup
 ```
+   ![](img/limg18.png)
 
 3. Donar permisos:
 ```bash
@@ -194,6 +222,7 @@ sudo crontab -e
 ```cron
 0 23 * * 1-6 /usr/local/bin/incrementalbackup.sh
 ```
+   ![](img/limg19.png)
 
 ---
 
