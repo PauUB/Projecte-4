@@ -6,7 +6,7 @@
    - **Disc 0**: per al sistema operatiu.
    - **Disc 1**: disc secundari de **10 GB**.
      
-  ![](img/img01.png)
+  ![](img/wimg01.png)
 
 3. Instal·lar Windows 11 de manera normal.
 4. Crear un usuari local (simular l’usuari director).
@@ -17,14 +17,14 @@
 3. Inicialitzar el disc (GPT).
 4. Crear volum simple, lletra **D:**, format **NTFS**.
 
-  ![](img/img02.png)
-  <img src="img/img03.png" width="500" height="500">
+  ![](img/wimg02.png)
+  <img src="img/wimg03.png" width="500" height="500">
 
 5. Crear carpeta:
 ```text
 D:\Backups\Duplicati
 ```
-  ![](img/img04.png)
+  ![](img/wimg04.png)
 
 ## PAS 3. Crear compte Google Drive
 1. Crear un compte Google nou (no escolar).
@@ -44,7 +44,7 @@ http://localhost:8200
 - Nom: `Backup_Local_Perfil`
 - Xifrat: **AES-256**
   
-  ![](img/img06.png)
+  ![](img/wimg06.png)
   
 - Destí: Carpeta local  
 ```text
@@ -54,11 +54,11 @@ D:\Backups\Duplicati\PerfilUsuari
 ```text
 C:\Users\NomUsuari
 ```
-  ![](img/img07.png)
+  ![](img/wimg07.png)
 
 - Planificació: **cada 1 hora**
   
-  ![](img/img08.png)
+  ![](img/wimg08.png)
 
 ## PAS 6. Còpia al cloud (Google Drive)
 ### Configuració
