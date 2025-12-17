@@ -15,10 +15,8 @@ Aquesta guia està dissenyada per als tècnics i becaris d’EverPia. Té l’ob
 ### 2.2 Procediment d’instal·lació
 1. Descarregar l’instal·lador des del portal intern d’EverPia o del web oficial de [AnyDesk](https://anydesk.com/).  
 2. Executar l’instal·lador i seguir les instruccions de l’assistent.  
-   - **Captura de pantalla suggerida:** Pantalla d’inici de l’instal·lador  
 3. Acceptar els termes i condicions.  
 4. Seleccionar **Full Installation / Technical Installation**.  
-   - **Captura de pantalla suggerida:** Opció de “Full Installation” marcada  
 5. Completar la instal·lació i reiniciar el sistema si és necessari.
 
 ---
@@ -29,12 +27,10 @@ Aquesta guia està dissenyada per als tècnics i becaris d’EverPia. Té l’ob
 1. Obrir l’aplicació **AnyDesk**.  
 2. Introduir les credencials proporcionades per EverPia (usuari tècnic i contrasenya).  
 3. Seleccionar **Iniciar sessió** o **Connect**.  
-   - **Captura de pantalla suggerida:** Pantalla d’inici de sessió  
 
 ### 3.2 Connectar amb un client
 1. Sol·licitar al client el seu **ID AnyDesk** i la contrasenya temporal.  
 2. Introduir aquesta informació a l’aplicació i fer clic a **Connectar**.  
-   - **Captura de pantalla suggerida:** Pantalla de connexió amb ID i contrasenya  
 
 ---
 
@@ -44,18 +40,15 @@ Aquesta guia està dissenyada per als tècnics i becaris d’EverPia. Té l’ob
 1. Accedir al menú **File Transfer**.  
 2. Seleccionar l’arxiu o carpeta a enviar/rebre.  
 3. Confirmar la transferència i supervisar el procés.  
-   - **Captura de pantalla suggerida:** Interfície de transferència d’arxius  
 
 ### 4.2 Canvi de pantalla
 1. Seleccionar l’opció **Remote Control**.  
 2. Alternar entre visualització de pantalla completa i finestra reduïda segons conveniència.  
-   - **Captura de pantalla suggerida:** Pantalla amb control remot actiu  
 
 ### 4.3 Reinici remot
 1. Accedir al menú **Actions**.  
 2. Seleccionar **Restart** o **Reiniciar**.  
 3. Confirmar l’acció i esperar que el client es torni a connectar.  
-   - **Captura de pantalla suggerida:** Confirmació de reinici remot  
 
 ---
 
