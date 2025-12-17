@@ -9,7 +9,6 @@ Aquesta guia està pensada per a usuaris finals. L’objectiu és que pugueu reb
 1. Accediu a l’enllaç proporcionat pel tècnic per descarregar **AnyDesk Quick Support**:  
    [Descarrega AnyDesk Quick Support](https://anydesk.com/en/downloads)  
 2. No cal instal·lar res: només obriu el fitxer descarregat.  
-   - **Captura de pantalla suggerida:** Icona del fitxer Quick Support  
 
 ---
 
@@ -17,11 +16,9 @@ Aquesta guia està pensada per a usuaris finals. L’objectiu és que pugueu reb
 
 1. Quan obriu l’aplicació Quick Support, veureu una finestra amb un **ID numèric**.  
 2. També pot aparèixer una **contrasenya temporal** si cal.  
-   - **Captura de pantalla suggerida:** Pantalla amb ID i contrasenya destacats  
-
-3. Comuniqueu aquests dos elements al tècnic d’EverPia:  
+![](img/img01.png)
+3. Comuniqueu aquest ID al tècnic d’EverPia:  
    - ID: `XXXXX`  
-   - Contrasenya: `XXXXX`  
 
 ---
 
@@ -29,8 +26,6 @@ Aquesta guia està pensada per a usuaris finals. L’objectiu és que pugueu reb
 
 1. Quan el tècnic intente connectar-se, apareixerà un **avís de connexió** a la pantalla.  
 2. Feu clic a **Acceptar** per permetre la connexió.  
-   - **Captura de pantalla suggerida:** Botó "Acceptar" ressaltat  
-
 3. A partir d’aquí, el tècnic podrà veure i controlar la vostra pantalla per solucionar l’incidència.  
 
 ---
@@ -47,7 +42,6 @@ Aquesta guia està pensada per a usuaris finals. L’objectiu és que pugueu reb
 
 1. Quan finalitzi la sessió, tanqueu l’aplicació Quick Support.  
 2. Ja no hi ha cap connexió activa amb EverPia.  
-   - **Captura de pantalla suggerida:** Botó “X” per tancar l’aplicació  
 
 ---
 
